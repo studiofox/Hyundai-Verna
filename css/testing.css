@@ -1,0 +1,1373 @@
+.html-embed {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: auto;
+    bottom: auto;
+    z-index: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+  }
+  
+  
+  .audio_class {
+    position: absolute;
+    left: 0%;
+    top: 15%;
+    right: 0%;
+    /* bottom: 0%; */
+    width: 0px;
+    /* height: 270px; */
+    /* margin-bottom: -145px; */
+    margin-left: 15%;
+  }
+  
+  
+  
+  .audio_class {
+      height: 80px; 
+      /* left: 0; */
+      /* bottom: 0; */
+      width: 50%;
+      color: white;
+      -webkit-transition: all 0.5s linear;
+      -moz-transition: all 0.5s linear;
+      -o-transition: all 0.5s linear;
+      transition: all 0.5s linear;
+      -moz-box-shadow: 2px 2px 4px 0px grey;
+      -webkit-box-shadow: 2px 2px 4px 0px grey;
+      box-shadow: 2px 2px 4px 0px grey;
+      -moz-border-radius: 7px 7px 7px 7px;
+      -webkit-border-radius: 7px 7px 7px 7px;
+      border-radius: 7px 7px 7px 7px;
+      border: 1px solid #d6d6d6;
+      background: #f5f2ed;
+  }
+  
+  
+  
+  .left-panel-center {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: auto;
+    bottom: auto;
+    display: block;
+    width: 0px;
+    height: 50%;
+  }
+  
+  .right-panel-center {
+    position: absolute;
+    left: auto;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+    width: 0px;
+    height: 50%;
+    margin-right: 260px;
+    padding-right: 0px;
+    text-align: right;
+  }
+  
+  .right-panel {
+    position: absolute;
+    left: 0%;
+    top: auto;
+    right: 0%;
+    bottom: 0%;
+    width: 250px;
+    height: 450px;
+    margin-bottom: -200px;
+  }
+  
+  .carbon-button {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+    z-index: 1;
+    width: 72px;
+    height: 80px;
+    background-image: url('../images/carbon_button.png');
+    background-size: 100% 100%;
+    background-repeat: repeat;
+    cursor: pointer;
+  }
+  
+  .plastic-button {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+    z-index: 1;
+    width: 72px;
+    height: 80px;
+    margin-top: 90px;
+    background-image: url('../images/plastic_button.png');
+    background-size: 100% 100%;
+    background-repeat: repeat;
+    cursor: pointer;
+  }
+  
+  .wood-button {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+    z-index: 1;
+    width: 72px;
+    height: 80px;
+    margin-top: 180px;
+    background-image: url('../images/wood_button.png');
+    background-size: 100% 100%;
+    background-repeat: repeat;
+    cursor: pointer;
+  }
+  
+  
+  @media screen and (max-width: 767px) {
+    .unfold-button {
+      width: 40px;
+      height: 40px;
+    }
+    .fold-button {
+      width: 40px;
+      height: 40px;
+      margin-top: 70px;
+    }
+    .annotation-button {
+      width: 40px;
+      height: 40px;
+      margin-top: 140px;
+    }
+    .left-panel {
+      height: 210px;
+      margin-bottom: -105px;
+    }
+    .right-panel {
+      height: 210px;
+      margin-bottom: -105px;
+      width:120px;
+    }
+    .carbon-button {
+      width: 52px;
+      height: 60px;
+    }
+    .plastic-button {
+      width: 52px;
+      height: 60px;
+      margin-top: 70px;
+    }
+    .wood-button {
+      width: 52px;
+      height: 60px;
+      margin-top: 140px;
+    }
+    .right-panel-center {
+      position: absolute;
+      left: auto;
+      top: 0%;
+      right: 0%;
+      bottom: auto;
+      width: 0px;
+      height: 50%;
+      margin-right: 140px;
+      padding-right: 0px;
+    }
+  
+    #texture1 {
+      position: absolute;
+      left: 0%;
+      top: auto;
+      right: 0%;
+      bottom: 0%;
+      height: 270px;
+      margin-bottom: -205px !important;
+    }
+  
+    #img_int
+    {
+      width: 65px !important;
+    }
+  .img_t
+  {
+    width: 60px;
+  }
+  
+  
+  
+  }
+  
+  @media screen and (max-width: 479px) {
+    .fold-button {
+      margin-top: 0px;
+      margin-left: 70px;
+    }
+    .annotation-button {
+      margin-top: 0px;
+      margin-left: 140px;
+    }
+    .left-panel {
+      left: 0%;
+      top: 0%;
+      right: 0%;
+      bottom: auto;
+      width: 210px;
+      height: 10px;
+      margin-right: -105px;
+      margin-bottom: auto;
+      margin-left: auto;
+    }
+    .left-panel-center {
+      width: 50%;
+      height: 0px;
+      margin-top: 10px;
+    }
+    .right-panel-center {
+      left: 0%;
+      top: auto;
+      right: auto;
+      bottom: 0%;
+      width: 50%;
+      height: 0px;
+      margin-right: 0px;
+      margin-bottom: 70px;
+    }
+    .right-panel {
+      left: auto;
+      top: 0%;
+      right: 0%;
+      bottom: 0%;
+      width: 210px;
+      height: 0px;
+      margin-right: -105px;
+    }
+    .plastic-button {
+      margin-top: 0px;
+      margin-left: 70px;
+    }
+    .wood-button {
+      margin-top: 0px;
+      margin-left: 140px;
+    }
+  
+    .right-panel-center {
+      position: absolute;
+      left: auto;
+      top: 0%;
+      right: 0%;
+      bottom: auto;
+      width: 0px;
+      height: 50%;
+      margin-right: 120px;
+      padding-right: 0px;
+    }
+  
+    #texture1 {
+      position: absolute;
+      left: 0%;
+      top: auto;
+      right: 0%;
+      bottom: 0%;
+      height: 270px;
+      margin-bottom: -205px !important;
+    }
+  
+    #img_int
+    {
+      width: 65px !important;
+    }
+  
+  .img_t
+  {
+    width: 100px;
+  }
+  
+  
+  }
+  
+  /*
+  @media only screen 
+    and (min-device-width: 375px) 
+    and (max-device-width: 823px) 
+    and (-webkit-min-device-pixel-ratio: 3)
+    and (orientation: landscape) { 
+  
+      #texture1 {
+        position: absolute;
+        left: 0%;
+        top: auto;
+        right: 0%;
+        bottom: 0%;
+        height: 270px;
+        margin-bottom: -205px;
+      }
+  
+   
+  
+      .unfold-button {
+        width: 30px;
+        height: 30px;
+      }
+      .fold-button {
+        width: 30px;
+        height: 30px;
+        margin-top: 70px;
+      }
+      .annotation-button {
+        width: 30px;
+        height: 30px;
+        margin-top: 140px;
+      }
+   
+      .right-panel {
+        height: 210px;
+        margin-bottom: -145px;
+        width:120px;
+  
+      }
+  
+      .left-panel {
+        height: 210px;
+      }
+  
+      .right-panel-center {
+       
+        margin-right: 140px;
+        padding-right: 0px;
+      }
+  
+      #texture1 {
+        position: absolute;
+        left: 0%;
+        top: auto;
+        right: 0%;
+        bottom: 0%;
+        height: 270px;
+        margin-bottom: -220px !important;
+      }
+  
+  
+      .img_t
+  {
+    width: 60px;
+  }
+  
+  }*/
+  
+  /* @media only screen 
+    and (min-device-width: 768px) 
+    and (max-device-width: 1024px) 
+    and (orientation: landscape) 
+    and (-webkit-min-device-pixel-ratio: 2) {
+  
+      .right-panel-center {
+        position: absolute;
+        left: auto;
+        top: 0%;
+        right: 0%;
+        bottom: auto;
+        width: 0px;
+        height: 50%;
+        margin-right: 180px;
+        padding-right: 0px;
+      }
+      
+      .right-panel {
+        position: absolute;
+        left: 0%;
+        top: auto;
+        right: 0%;
+        bottom: 0%;
+        width: 160px;
+        height: 270px;
+        margin-bottom: -160px;
+      }
+  
+      #img_t
+  {
+    width: 60px;
+  }
+  
+  #texture1 {
+    position: absolute;
+    left: 0%;
+    top: auto;
+    right: 0%;
+    bottom: 0%;
+    height: 270px;
+    margin-bottom: -100px;
+  }
+  
+  #img_int
+  {
+    width: 85px !important;
+  }
+  
+  } */
+  
+  
+  
+  
+  #right_panel::-webkit-scrollbar-track
+  {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+      border-radius: 10px;
+      background-color: #F5F5F5;
+  }
+  
+  #right_panel::-webkit-scrollbar
+  {
+      width: 10px;
+    background-color: #F5F5F5;}
+  
+  #right_panel::-webkit-scrollbar-thumb
+  {
+      border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+      background-color: #aea9a9;
+  }
+  
+  
+  
+  
+  
+  /*@media (min-width:1025px) {
+  
+  
+  .right-panel-center {
+    position: absolute;
+    left: auto;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+    width: 0px;
+    height: 50%;
+    margin-right: 260px;
+    padding-right: 0px;
+    text-align: right;
+  }
+  
+  .right-panel {
+    position: absolute;
+    left: 0%;
+    top: auto;
+    right: 0%;
+    bottom: 0%;
+    width: 250px;
+    height: 450px;
+    margin-bottom: -200px;
+  }
+  
+  
+  }*/
+  
+  /* Custom, iPhone Retina */ 
+      @media only screen and (min-width : 320px) {
+  
+      }
+  
+      /* Extra Small Devices, Phones */ 
+      @media only screen and (min-width : 480px) {
+  
+  
+  .ml-auto, .mx-auto {
+      margin-left: 0px !important;
+      text-align: left !important;
+  
+  }
+  
+  
+  .right-panel-center {
+    position: absolute;
+    left: auto;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+    width: 0px;
+    height: 50%;
+    margin-right: 160px;
+    padding-right: 0px;
+    text-align: right;
+  }
+  
+  .right-panel {
+    position: absolute;
+    left: 0%;
+    top: auto;
+    right: 0%;
+    bottom: 0%;
+    width: 150px;
+    height: 180px;
+    margin-bottom: -120px;
+  }
+  
+  #texture1 {
+    position: absolute;
+    left: 0%;
+    top: auto;
+    right: 0%;
+    bottom: 0%;
+    height: 270px;
+    margin-left: 10px;
+    margin-bottom: -210px !important;
+  }
+  
+  label {  
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20256%20448%22%20enable-background%3D%22new%200%200%20256%20448%22%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E.arrow%7Bfill%3A@{arrow}%3B%7D%3C%2Fstyle%3E%3Cpath%20class%3D%22arrow%22%20d%3D%22M255.9%20168c0-4.2-1.6-7.9-4.8-11.2-3.2-3.2-6.9-4.8-11.2-4.8H16c-4.2%200-7.9%201.6-11.2%204.8S0%20163.8%200%20168c0%204.4%201.6%208.2%204.8%2011.4l112%20112c3.1%203.1%206.8%204.6%2011.2%204.6%204.4%200%208.2-1.5%2011.4-4.6l112-112c3-3.2%204.5-7%204.5-11.4z%22%2F%3E%3C%2Fsvg%3E%0A");
+    background-position: right 0px center;
+    background-repeat: no-repeat;
+    border-radius:2px;
+    border:none;
+    color: #ffffff;
+    padding: 10px 30px 10px 10px;
+    outline: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+    margin-left: 25px !important;
+  
+  }
+  
+  #int,#exit
+  {
+    width: 75px !important;
+  
+  }
+  
+  .progress-bar-div {
+    position: absolute;
+    left: 0px;
+    top: 5%;
+    right: 0px;
+    bottom: 0;
+    display: block;
+    height: 20%;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-transform: translate(0px, 0px);
+    -ms-transform: translate(0px, 0px);
+    transform: translate(0px, 0px);
+  }
+  
+  .left-panel {
+    position: absolute;
+    left: 0%;
+    top: auto;
+    right: 0%;
+    bottom: 0%;
+    width: 0px;
+    height: 200px;
+    margin-bottom: -155px;
+    margin-left: 10px;
+  }
+  
+  
+  .unfold-button {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+    background-image: url('../img/Layer 885.png');
+    background-size: 100% 100%;
+    background-repeat: repeat;
+    cursor: pointer;
+  }
+  
+  .unfold-button1 {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+    margin-top: 180px;
+    background-image: url('../img/Layer 888.png');
+    background-size: 100% 100%;
+    background-repeat: repeat;
+    cursor: pointer;
+  }
+  
+  .fold-button {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+    margin-top: 60px;
+    background-image: url('../img/Layer 886.png');
+    background-size: 100% 100%;
+    background-repeat: repeat;
+    cursor: pointer;
+  }
+  
+  .annotation-button {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+    margin-top: 120px;
+    background-image: url('../img/Layer 887.png');
+    background-size: 100% 100%;
+    background-repeat: repeat;
+    cursor: pointer;
+  }
+  
+  #src1,#src2,#src3
+  {
+    width: 35px !important;
+    height: 35px !important;
+  }
+  
+  .featherlight .featherlight-content {
+   
+    padding: 5px 5px 0px !important;
+  }
+  
+  .featherlight .featherlight-content {
+    
+    border-bottom: 5px solid transparent !important;
+  }
+  
+  
+      }
+  
+      /* Small Devices, Tablets */
+      @media only screen and (min-width : 768px) {
+  
+         .right-panel-center {
+    position: absolute;
+    left: auto;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+    width: 0px;
+    height: 50%;
+    margin-right: 260px;
+    padding-right: 0px;
+    text-align: right;
+  }
+  
+  .right-panel {
+    position: absolute;
+    left: 0%;
+    top: auto;
+    right: 0%;
+    bottom: 0%;
+    width: 250px;
+    height: 250px;
+    margin-bottom: -120px;
+  }
+  
+  #texture1 {
+    position: absolute;
+    left: 0%;
+    top: auto;
+    right: 0%;
+    bottom: 0%;
+    height: 270px;
+    margin-left: 10px;
+    margin-bottom: -180px ;
+  }
+  
+  .ml-auto, .mx-auto {
+      margin-left: 0px !important;
+      text-align: left !important;
+  
+  }
+  
+  #int,#exit
+  {
+    width: 80px !important;
+        margin-top: 30px !important;
+  
+  
+  }
+  
+  .img_t {
+      width: 80px !important;
+  }
+  
+  .progress-bar-div {
+    position: absolute;
+    left: 0px;
+    top: 5%;
+    right: 0px;
+    bottom: 0;
+    display: block;
+    height: 20%;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-transform: translate(0px, 0px);
+    -ms-transform: translate(0px, 0px);
+    transform: translate(0px, 0px);
+  }
+  
+  
+  .left-panel {
+    position: absolute;
+    left: 0%;
+    top: auto;
+    right: 0%;
+    bottom: 0%;
+    width: 0px;
+    height: 200px;
+    margin-bottom: -155px;
+    margin-left: 10px;
+  }
+  
+  
+  .unfold-button {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+    background-image: url('../img/Layer 885.png');
+    background-size: 100% 100%;
+    background-repeat: repeat;
+    cursor: pointer;
+  }
+  
+  .unfold-button1 {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+    margin-top: 180px;
+    background-image: url('../img/Layer 888.png');
+    background-size: 100% 100%;
+    background-repeat: repeat;
+    cursor: pointer;
+  }
+  
+  .fold-button {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+    margin-top: 60px;
+    background-image: url('../img/Layer 886.png');
+    background-size: 100% 100%;
+    background-repeat: repeat;
+    cursor: pointer;
+  }
+  
+  .annotation-button {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+    margin-top: 120px;
+    background-image: url('../img/Layer 887.png');
+    background-size: 100% 100%;
+    background-repeat: repeat;
+    cursor: pointer;
+  }
+  
+  #src1,#src2,#src3
+  {
+    width: 35px !important;
+    height: 35px !important;
+  }
+  
+  .featherlight .featherlight-content {
+   
+    padding: 5px 5px 0px !important;
+  }
+  
+  .featherlight .featherlight-content {
+    
+    border-bottom: 5px solid transparent !important;
+  }
+  
+  
+      }
+  
+      /* Medium Devices, Desktops */
+      @media (min-width:1025px) {
+  
+        .right-panel-center {
+    position: absolute;
+    left: auto;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+    width: 0px;
+    height: 50%;
+    margin-right: 200px;
+    padding-right: 0px;
+    text-align: right;
+  }
+  
+  .right-panel {
+    position: absolute;
+    left: 0%;
+    top: auto;
+    right: 0%;
+    bottom: 0%;
+    width: 180px;
+    height: 250px;
+    margin-bottom: -110px;
+  }
+  
+  #texture1 {
+    position: absolute;
+    left: 0%;
+    top: auto;
+    right: 0%;
+    bottom: 0%;
+    height: 270px;
+    margin-left: 10px;
+    margin-bottom: -190px !important ;
+  }
+  
+  .ml-auto, .mx-auto {
+      margin-left: 0px !important;
+      text-align: left !important;
+  
+  }
+  
+  #int,#exit
+  {
+    width: 100px !important;
+    margin-top: 18px !important;
+  
+  }
+  
+  
+  label {  
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20256%20448%22%20enable-background%3D%22new%200%200%20256%20448%22%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E.arrow%7Bfill%3A@{arrow}%3B%7D%3C%2Fstyle%3E%3Cpath%20class%3D%22arrow%22%20d%3D%22M255.9%20168c0-4.2-1.6-7.9-4.8-11.2-3.2-3.2-6.9-4.8-11.2-4.8H16c-4.2%200-7.9%201.6-11.2%204.8S0%20163.8%200%20168c0%204.4%201.6%208.2%204.8%2011.4l112%20112c3.1%203.1%206.8%204.6%2011.2%204.6%204.4%200%208.2-1.5%2011.4-4.6l112-112c3-3.2%204.5-7%204.5-11.4z%22%2F%3E%3C%2Fsvg%3E%0A");
+    background-position: right 0px center;
+    background-repeat: no-repeat;
+    border-radius:2px;
+    border:none;
+    color: #ffffff;
+    padding: 10px 30px 10px 10px;
+    outline: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+    margin-left: 35px !important;
+  
+  }
+  
+  .progress-bar-div {
+    position: absolute;
+    left: 0px;
+    top: 5%;
+    right: 0px;
+    bottom: 0;
+    display: block;
+    height: 20%;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-transform: translate(0px, 0px);
+    -ms-transform: translate(0px, 0px);
+    transform: translate(0px, 0px);
+  }
+  
+  .left-panel {
+    position: absolute;
+    left: 0%;
+    top: auto;
+    right: 0%;
+    bottom: 0%;
+    width: 0px;
+    height: 200px;
+    margin-bottom: -140px;
+    margin-left: 10px;
+  }
+  
+  
+  .unfold-button {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+    background-image: url('../img/Layer 885.png');
+    background-size: 100% 100%;
+    background-repeat: repeat;
+    cursor: pointer;
+  }
+  
+  .unfold-button1 {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+    margin-top: 210px;
+    background-image: url('../img/Layer 888.png');
+    background-size: 100% 100%;
+    background-repeat: repeat;
+    cursor: pointer;
+  }
+  
+  .fold-button {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+    margin-top: 70px;
+    background-image: url('../img/Layer 886.png');
+    background-size: 100% 100%;
+    background-repeat: repeat;
+    cursor: pointer;
+  }
+  
+  .annotation-button {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+    margin-top: 140px;
+    background-image: url('../img/Layer 887.png');
+    background-size: 100% 100%;
+    background-repeat: repeat;
+    cursor: pointer;
+  }
+  
+  #src1,#src2,#src3
+  {
+    width: 45px !important;
+    height: 45px !important;
+  }
+  
+  .featherlight .featherlight-content {
+   
+    padding: 5px 5px 0px !important;
+  }
+  
+  .featherlight .featherlight-content {
+    
+    border-bottom: 5px solid transparent !important;
+  }
+  
+  
+  
+      }
+  
+      /* Large Devices, Wide Screens */
+      @media (min-width:1281px) {
+  
+  
+  .right-panel-center {
+    position: absolute;
+    left: auto;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+    width: 0px;
+    height: 50%;
+    margin-right: 260px;
+    padding-right: 0px;
+    text-align: right;
+  }
+  
+  .right-panel {
+    position: absolute;
+    left: 0%;
+    top: auto;
+    right: 0%;
+    bottom: 0%;
+    width: 250px;
+    height: 380px;
+    margin-bottom: -175px;
+  }
+  
+  #texture1 {
+    position: absolute;
+    left: 0%;
+    top: auto;
+    right: 0%;
+    bottom: 0%;
+    height: 270px;
+    margin-left: 10px;
+    margin-bottom: -180px !important ;
+  }
+  
+  .ml-auto, .mx-auto {
+      margin-left: auto!important;
+      text-align: right !important;
+  
+  }
+  
+  #int,#exit
+  {
+    width: 150px !important;
+    margin-top: 20px !important;
+  
+  }
+  
+  .progress-bar-div {
+    position: absolute;
+    left: 0px;
+    top: 75%;
+    right: 0px;
+    bottom: 0;
+    display: block;
+    height: 20%;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-transform: translate(0px, 0px);
+    -ms-transform: translate(0px, 0px);
+    transform: translate(0px, 0px);
+  }
+  
+  
+  
+  .unfold-button {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+    z-index: 1;
+  
+    background-image: url('../img/Layer 885.png');
+    background-size: 100% 100%;
+    background-repeat: repeat;
+    cursor: pointer;
+  }
+  
+  .unfold-button1 {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+    z-index: 1;
+  
+    margin-top: 270px;
+    background-image: url('../img/Layer 888.png');
+    background-size: 100% 100%;
+    background-repeat: repeat;
+    cursor: pointer;
+  }
+  
+  .fold-button {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+    z-index: 1;
+   
+    margin-top: 90px;
+    background-image: url('../img/Layer 886.png');
+    background-size: 100% 100%;
+    background-repeat: repeat;
+    cursor: pointer;
+  }
+  
+  .annotation-button {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+    z-index: 1;
+  
+    margin-top: 180px;
+    background-image: url('../img/Layer 887.png');
+    background-size: 100% 100%;
+    background-repeat: repeat;
+    cursor: pointer;
+  }
+  
+  .left-panel {
+    position: absolute;
+    left: 0%;
+    top: auto;
+    right: 0%;
+    bottom: 0%;
+    width: 0px;
+    height: 270px;
+    margin-bottom: -145px;
+    margin-left: 10px;
+  }
+  
+  #src1,#src2,#src3
+  {
+    width: 50px !important;
+    height: 50px !important;
+  }
+  
+  .featherlight .featherlight-content {
+   
+    padding: 5px 5px 0px !important;
+  }
+  
+  .featherlight .featherlight-content {
+    
+    border-bottom: 5px solid transparent !important;
+  }
+  
+  
+  .img_t
+  {
+    width: 105px !important;
+  }
+  
+  
+  label {  
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20256%20448%22%20enable-background%3D%22new%200%200%20256%20448%22%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E.arrow%7Bfill%3A@{arrow}%3B%7D%3C%2Fstyle%3E%3Cpath%20class%3D%22arrow%22%20d%3D%22M255.9%20168c0-4.2-1.6-7.9-4.8-11.2-3.2-3.2-6.9-4.8-11.2-4.8H16c-4.2%200-7.9%201.6-11.2%204.8S0%20163.8%200%20168c0%204.4%201.6%208.2%204.8%2011.4l112%20112c3.1%203.1%206.8%204.6%2011.2%204.6%204.4%200%208.2-1.5%2011.4-4.6l112-112c3-3.2%204.5-7%204.5-11.4z%22%2F%3E%3C%2Fsvg%3E%0A");
+    background-position: right 0px center;
+    background-repeat: no-repeat;
+    border-radius:2px;
+    border:none;
+    color: #ffffff;
+    padding: 10px 30px 10px 10px;
+    outline: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+    margin-left: 46px !important;
+  
+  }
+  a {
+    text-decoration: none;
+    font-size: 15px !important;
+    font-weight: bold;
+  }
+  
+  
+  
+      }
+  
+  
+      a {
+        text-decoration: none;
+        font-weight: bold;
+      }
+  
+      @media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
+        .right-panel-center {
+          position: absolute;
+          left: auto;
+          top: 0%;
+          right: 0%;
+          bottom: auto;
+          width: 0px;
+          height: 50%;
+          margin-right: 180px;
+          padding-right: 0px;
+          text-align: right;
+        }
+        
+        .right-panel {
+          position: absolute;
+          left: 0%;
+          top: auto;
+          right: 0%;
+          bottom: 0%;
+          width: 150px;
+          height: 280px;
+          margin-bottom: -110px;
+        }
+        
+        #texture1 {
+          position: absolute;
+          left: 0%;
+          top: auto;
+          right: 0%;
+          bottom: 0%;
+          height: 270px;
+          margin-left: 10px;
+          margin-bottom: -165px !important ;
+        }
+        
+        .ml-auto, .mx-auto {
+            margin-left: 0px !important;
+            text-align: left !important;
+        
+        }
+        
+        #int,#exit
+        {
+          width: 100px !important;
+          margin-top: 18px !important;
+        
+        }
+        
+        
+        label {  
+          background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20256%20448%22%20enable-background%3D%22new%200%200%20256%20448%22%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E.arrow%7Bfill%3A@{arrow}%3B%7D%3C%2Fstyle%3E%3Cpath%20class%3D%22arrow%22%20d%3D%22M255.9%20168c0-4.2-1.6-7.9-4.8-11.2-3.2-3.2-6.9-4.8-11.2-4.8H16c-4.2%200-7.9%201.6-11.2%204.8S0%20163.8%200%20168c0%204.4%201.6%208.2%204.8%2011.4l112%20112c3.1%203.1%206.8%204.6%2011.2%204.6%204.4%200%208.2-1.5%2011.4-4.6l112-112c3-3.2%204.5-7%204.5-11.4z%22%2F%3E%3C%2Fsvg%3E%0A");
+          background-position: right 0px center;
+          background-repeat: no-repeat;
+          border-radius:2px;
+          border:none;
+          color: #ffffff;
+          padding: 10px 30px 10px 10px;
+          outline: none;
+          -moz-appearance: none;
+          -webkit-appearance: none;
+          appearance: none;
+          transform: rotate(-180deg);
+          -webkit-transform: rotate(-180deg);
+          margin-left: 35px !important;
+        
+        }
+        
+        .progress-bar-div {
+          position: absolute;
+          left: 0px;
+          top: 5%;
+          right: 0px;
+          bottom: 0;
+          display: block;
+          height: 20%;
+          margin-right: auto;
+          margin-left: auto;
+          -webkit-transform: translate(0px, 0px);
+          -ms-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+        }
+        
+        .left-panel {
+          position: absolute;
+          left: 0%;
+          top: auto;
+          right: 0%;
+          bottom: 0%;
+          width: 0px;
+          height: 200px;
+          margin-bottom: -100px;
+          margin-left: 10px;
+        }
+        
+        
+        .unfold-button {
+          position: absolute;
+          left: 0%;
+          top: 0%;
+          right: 0%;
+          bottom: auto;
+          z-index: 1;
+          width: 40px;
+          height: 40px;
+          background-image: url('../img/Layer 885.png');
+          background-size: 100% 100%;
+          background-repeat: repeat;
+          cursor: pointer;
+        }
+        
+        .unfold-button1 {
+          position: absolute;
+          left: 0%;
+          top: 0%;
+          right: 0%;
+          bottom: auto;
+          z-index: 1;
+          width: 40px;
+          height: 40px;
+          margin-top: 210px;
+          background-image: url('../img/Layer 888.png');
+          background-size: 100% 100%;
+          background-repeat: repeat;
+          cursor: pointer;
+        }
+        
+        .fold-button {
+          position: absolute;
+          left: 0%;
+          top: 0%;
+          right: 0%;
+          bottom: auto;
+          z-index: 1;
+          width: 40px;
+          height: 40px;
+          margin-top: 70px;
+          background-image: url('../img/Layer 886.png');
+          background-size: 100% 100%;
+          background-repeat: repeat;
+          cursor: pointer;
+        }
+        
+        .annotation-button {
+          position: absolute;
+          left: 0%;
+          top: 0%;
+          right: 0%;
+          bottom: auto;
+          z-index: 1;
+          width: 40px;
+          height: 40px;
+          margin-top: 140px;
+          background-image: url('../img/Layer 887.png');
+          background-size: 100% 100%;
+          background-repeat: repeat;
+          cursor: pointer;
+        }
+        
+        #src1,#src2,#src3
+        {
+          width: 45px !important;
+          height: 45px !important;
+        }
+        
+        .featherlight .featherlight-content {
+         
+          padding: 5px 5px 0px !important;
+        }
+        
+        .featherlight .featherlight-content {
+          
+          border-bottom: 5px solid transparent !important;
+        }
+            }

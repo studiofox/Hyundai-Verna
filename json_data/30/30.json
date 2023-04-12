@@ -1,0 +1,430 @@
+{
+    "exterior": [
+    {
+        
+        "feature_image_file": "creta_json_folder/creta_json/exterior/Aerodynamic Rear Spoiler.jpg", 
+        "feature": "creta_json_folder/creta_json/EXTERIOR1/Aerodynamic Rear Spoiler.png", 
+        "order": 1
+    }, 
+    {
+      
+        "feature_image_file": "creta_json_folder/creta_json/exterior/Boomerang Shaped LED Tail Lamps.jpg", 
+        "feature": "creta_json_folder/creta_json/EXTERIOR1/Boomerang Shaped LED Tail Lamps.png", 
+        "order": 2
+    }, 
+    {
+       
+        "feature_image_file": "creta_json_folder/creta_json/exterior/Crescent Glow LED DRL's.jpg", 
+        "feature": "creta_json_folder/creta_json/EXTERIOR1/Crescent Glow LED DRL's.png", 
+        "order": 3
+    }, 
+    {
+
+
+        "feature_image_file": "creta_json_folder/creta_json/exterior/Floating Roof.jpg", 
+        "feature": "creta_json_folder/creta_json/EXTERIOR1/Floating Roof.png", 
+        "order": 4
+    }, 
+    {
+       
+        "feature_image_file": "creta_json_folder/creta_json/exterior/Hyundai Next-Gen Design _ Sensuous Sportiness.jpg", 
+        "feature": "creta_json_folder/creta_json/EXTERIOR1/Hyundai Next-Gen Design _ Sensuous Sportiness.png", 
+        "order": 5
+    }, 
+    {
+       
+        "feature_image_file": "creta_json_folder/creta_json/exterior/Low Coefficient Of Drag (CD).jpg", 
+        "feature": "creta_json_folder/creta_json/EXTERIOR1/Low Coefficient Of Drag (CD).png", 
+        "order": 6
+    }, 
+   
+    {
+        
+        "feature_image_file": "creta_json_folder/creta_json/exterior/Muscular Wheel Arches.jpg", 
+        "feature": "creta_json_folder/creta_json/EXTERIOR1/Muscular Wheel Arches.png", 
+        "order": 7
+    }, 
+   
+    {
+       
+        "feature_image_file": "creta_json_folder/creta_json/exterior/R17 Diamond Cut Alloy Wheel.jpg", 
+        "feature": "creta_json_folder/creta_json/EXTERIOR1/R17 Diamond Cut Alloy Wheel.png", 
+        "order": 9
+    }, 
+   
+    {
+       
+        "feature_image_file": "creta_json_folder/creta_json/exterior/Signature Cascading Grille.jpg", 
+        "feature": "creta_json_folder/creta_json/EXTERIOR1/Signature Cascading Grille.png", 
+        "order": 10
+    }, 
+  
+    {
+      
+        "feature_image_file": "creta_json_folder/creta_json/exterior/Trio Beam LED Headlamps.jpg", 
+        "feature": "creta_json_folder/creta_json/EXTERIOR1/Trio Beam LED Headlamps.png", 
+        "order": 11
+    }, 
+   
+    {
+      
+        "feature_image_file": "creta_json_folder/creta_json/exterior/Twin Tip Exhaust.jpg", 
+        "feature": "creta_json_folder/creta_json/EXTERIOR1/Twin Tip Exhaust.png", 
+        "order": 12
+    }, 
+    {
+
+        "audio_file": [
+            {
+                "audio_file": "creta_json_folder/creta_json/English/5 Welcome Function (Puddle Lamps + Auto Unfold ORVM).mp3", 
+                "language": "English",
+                "img_file" : "creta_json_folder/creta_json/exterior/Welcome Function (Puddle Lamps.jpg"
+            }, 
+            {
+                "audio_file": "creta_json_folder/creta_json/Hindi/5.Welcome Function (Puddle Lamps + Auto Unfold ORVM).mp3", 
+                "language": "Hindi"
+            }
+        ], 
+        "feature": "creta_json_folder/creta_json/EXTERIOR1/Welcome Function (Puddle Lamps.png", 
+        "order": 13
+    }
+    
+],
+"safety": [
+    {
+        
+        "audio_file": [
+            {
+                "audio_file": "creta_json_folder/creta_json/English/3 Six Airbags (Standard).mp3", 
+                "language": "English",
+                "img_file" : "creta_json_folder/creta_json/safety/6 Airbags.jpg"
+            }, 
+            {
+                "audio_file": "creta_json_folder/creta_json/Hindi/3.Six Airbags (Standard).mp3", 
+                "language": "Hindi"
+            }
+        ], 
+        "feature": "creta_json_folder/creta_json/SAFETY1/6 Airbags.png", 
+        "order": 1
+    }, 
+    {
+      
+        "feature_image_file": "creta_json_folder/creta_json/safety/Automatic Headlamps.jpg", 
+        "feature": "creta_json_folder/creta_json/SAFETY1/Automatic Headlamps.png", 
+        "order": 2
+    }, 
+    {
+       
+        "feature_image_file": "creta_json_folder/creta_json/safety/Burglar Alarm.jpg", 
+        "feature": "creta_json_folder/creta_json/SAFETY1/Burglar Alarm.png", 
+        "order": 3
+    }, 
+    {
+       
+        "feature_image_file": "creta_json_folder/creta_json/safety/Emergency Stop Signal (ESS).jpg", 
+        "feature": "creta_json_folder/creta_json/SAFETY1/Emergency Stop Signal (ESS).png", 
+        "order": 4
+    }, 
+    {
+       
+        "feature_image_file": "creta_json_folder/creta_json/safety/ESC.png", 
+        "feature": "creta_json_folder/creta_json/SAFETY1/ESC.png", 
+        "order": 5
+    }, 
+    {
+        "audio_file": [
+            {
+                "audio_file": "creta_json_folder/creta_json/English/10 Rear Disc Brakes.mp3", 
+                "language": "English",
+                "img_file" : "creta_json_folder/creta_json/safety/Rear Disc Brakes.jpg"
+
+            }, 
+            {
+                "audio_file": "creta_json_folder/creta_json/Hindi/10)Rear Disc Brakes.mp3", 
+                "language": "Hindi"
+            }
+        ], 
+        "feature": "creta_json_folder/creta_json/SAFETY1/Rear Disc Brakes.png", 
+        "order": 6
+    }, 
+   
+    {
+        
+        "feature_image_file": "creta_json_folder/creta_json/safety/Strong Body Structure.jpg", 
+        "feature": "creta_json_folder/creta_json/SAFETY1/Strong Body Structure.png", 
+        "order": 7
+    }
+   
+   
+   
+    
+],
+"performance": [
+    {
+        "feature_image_file": "creta_json_folder/creta_json/performance/1.5L Diesel Engine.jpg", 
+        "feature": "creta_json_folder/creta_json/PERFORMANCE1/1.5L Diesel Engine.png", 
+        "order": 1
+    }, 
+    {
+      
+        "feature_image_file": "creta_json_folder/creta_json/performance/1.5L Petrol Engine.jpg", 
+        "feature": "creta_json_folder/creta_json/PERFORMANCE1/1.5L Petrol Engine.png", 
+        "order": 2
+    }, 
+    {
+        "feature_image_file": "creta_json_folder/creta_json/performance/7.O TFT  LCD Supervision Cluster (With Turn By Turn Navigation).jpg", 
+        "feature": "creta_json_folder/creta_json/PERFORMANCE1/7.O TFT  LCD Supervision Cluster (With Turn By Turn Navigation).png", 
+        "order": 3
+    }, 
+    {
+        "audio_file": [
+            {
+                "audio_file": "creta_json_folder/creta_json/English/17 7DCT with 1.4 Turbo Petrol Engine.mp3", 
+                "language": "English",
+                "img_file" : "creta_json_folder/creta_json/performance/7DCT With 1.4L Turbo Petrol Engine.jpg"
+
+            }, 
+            {
+                "audio_file": "creta_json_folder/creta_json/Hindi/8)DCT with 1.4 Turbo Petrol Engine Gear shift facility.mp3", 
+                "language": "Hindi"
+            }
+        ],    
+        "feature": "creta_json_folder/creta_json/PERFORMANCE1/7DCT With 1.4L Turbo Petrol Engine.png", 
+        "order": 4
+    },
+    {
+        "audio_file": [
+            {
+                "audio_file": "creta_json_folder/creta_json/English/4 10.25 HD AVN (With SplitT Screen Function).mp3", 
+                "language": "English",
+                "img_file" : "creta_json_folder/creta_json/performance/10.25 HD AVN (With Split Screen Function).jpg"
+
+            }, 
+            {
+                "audio_file": "creta_json_folder/creta_json/Hindi/4.10.25 HD AVN (With SplitT Screen Function).mp3", 
+                "language": "Hindi"
+            }
+        ],  
+        "feature": "creta_json_folder/creta_json/PERFORMANCE1/10.25 HD AVN (With Split Screen Function).png", 
+        "order": 5
+    }, 
+    {
+        "feature_image_file": "creta_json_folder/creta_json/performance/Bose Audio - 8 Speakers.jpg", 
+        "feature": "creta_json_folder/creta_json/PERFORMANCE1/Bose Audio - 8 Speakers.png", 
+        "order": 6
+    }, 
+    {
+        "feature_image_file": "creta_json_folder/creta_json/performance/Front & Rear USB Charger.jpg", 
+        "feature": "creta_json_folder/creta_json/PERFORMANCE1/Front & Rear USB Charger.png", 
+        "order": 7
+    }, 
+    {
+        "feature_image_file": "creta_json_folder/creta_json/performance/IVT With 1.5L Petrol Engine.jpg", 
+        "feature": "creta_json_folder/creta_json/PERFORMANCE1/IVT With 1.5L Petrol Engine.png", 
+        "order": 8
+    }, 
+    {
+        "audio_file": [
+            {
+                "audio_file": "creta_json_folder/creta_json/English/12 Powerful 1.4 Turbo Petrol Engine.mp3", 
+                "language": "English",
+                "img_file" : "creta_json_folder/creta_json/performance/Powerful 1.4 Turbo Petrol Engine.jpg"
+
+            }, 
+            {
+                "audio_file": "creta_json_folder/creta_json/Hindi/13)1.4 turbo.mp3", 
+                "language": "Hindi"
+            }
+        ],    
+        "feature": "creta_json_folder/creta_json/PERFORMANCE1/Powerful 1.4 Turbo Petrol Engine.png", 
+        "order": 9
+    }
+   
+  
+],
+"convenience": [
+    {
+        "audio_file": [
+            {
+                "audio_file": "creta_json_folder/creta_json/English/6 8-WAY  Power Driver Seats.mp3", 
+                "language": "English",
+                "img_file" : "creta_json_folder/creta_json/convenience/8-Way Power Driver Seat.jpg"
+
+            }, 
+            {
+                "audio_file": "creta_json_folder/creta_json/Hindi/6)8-WAY  Power Driver Seats.mp3", 
+                "language": "Hindi"
+            }
+        ], 
+        "feature_image_file": "", 
+        "feature": "creta_json_folder/creta_json/CONVENIENCE1/8-Way Power Driver Seat.png", 
+        "order": 1
+    }, 
+    {
+        "audio_file": [
+            {
+                "audio_file": "creta_json_folder/creta_json/English/22 Auto Healthy Air With LCD Touch Function.mp3", 
+                "language": "English",
+                "img_file" : "creta_json_folder/creta_json/convenience/Auto Healthy Air With LCD Touch Function.jpg"
+
+            }, 
+            {
+                "audio_file": "creta_json_folder/creta_json/Hindi/21 Auto Healthy Air With LCD Touch Function .mp3", 
+                "language": "Hindi"
+            }
+        ], 
+        "feature": "creta_json_folder/creta_json/CONVENIENCE1/Auto Healthy Air With LCD Touch Function.png", 
+        "order": 2
+    }, 
+    {
+        
+        "feature_image_file": "creta_json_folder/creta_json/convenience/Cooled Glove Box.jpg", 
+        "feature": "creta_json_folder/creta_json/CONVENIENCE1/Cooled Glove Box.png", 
+        "order": 3
+    }, 
+    {
+      
+        "feature_image_file": "creta_json_folder/creta_json/convenience/Drive Mode Select - Eco.jpg", 
+        "feature": "creta_json_folder/creta_json/CONVENIENCE1/Drive Mode Select - Eco.png", 
+        "order": 4
+    }, 
+    {
+       
+        "feature_image_file": "creta_json_folder/creta_json/convenience/Driver Rear View Monitor.jpg", 
+        "feature": "creta_json_folder/creta_json/CONVENIENCE1/Driver Rear View Monitor.png", 
+        "order": 5
+    }, 
+    {
+        "audio_file": [
+            {
+                "audio_file": "creta_json_folder/creta_json/English/24 Electric Parking Brake with Auto Hold.mp3", 
+                "language": "English",
+                "img_file" : "creta_json_folder/creta_json/convenience/Electric Parking Brake With Auto Hold.jpg"
+
+            }, 
+            {
+                "audio_file": "creta_json_folder/creta_json/Hindi/23 Electric Parking Brake with Auto Hold.mp3", 
+                "language": "Hindi"
+            }
+        ], 
+        "feature": "creta_json_folder/creta_json/CONVENIENCE1/Electric Parking Brake With Auto Hold.png", 
+        "order": 6
+    }, 
+   
+    {
+        
+        "feature_image_file": "creta_json_folder/creta_json/convenience/Front Row Ventilated Seats.jpg", 
+        "feature": "creta_json_folder/creta_json/CONVENIENCE1/Front Row Ventilated Seats.png", 
+        "order": 7
+    }, 
+   
+    {
+       
+        "feature_image_file": "creta_json_folder/creta_json/convenience/Paddle Shifters.jpg", 
+        "feature": "creta_json_folder/creta_json/CONVENIENCE1/Paddle Shifters.png", 
+        "order": 8
+    }, 
+    {
+        "audio_file": [
+            {
+                "audio_file": "creta_json_folder/creta_json/English/21 Smart Panoramic Sunroof.mp3", 
+                "language": "English",
+                "img_file" : "creta_json_folder/creta_json/convenience/Smart Panoramic Sunroof.jpg"
+
+            }, 
+            {
+                "audio_file": "creta_json_folder/creta_json/Hindi/20 Smart Panoramic Sunroof.mp3", 
+                "language": "Hindi"
+            }
+        ], 
+        "feature": "creta_json_folder/creta_json/CONVENIENCE1/Smart Panoramic Sunroof.png", 
+        "order": 9
+    }, 
+   
+    {
+       
+        "feature_image_file": "creta_json_folder/creta_json/convenience/Superior Legroom & Thigh Support.jpg", 
+        "feature": "creta_json_folder/creta_json/CONVENIENCE1/Superior Legroom & Thigh Support.png", 
+        "order": 10
+    }, 
+  
+    {
+        "audio_file": [
+            {
+                "audio_file": "creta_json_folder/creta_json/English/19 Traction Control - Snow, Sand & Mud.mp3", 
+                "language": "English",
+                "img_file" : "creta_json_folder/creta_json/convenience/Traction Control – Snow.jpg"
+
+            }, 
+            {
+                "audio_file": "creta_json_folder/creta_json/Hindi/18)Traction Control - Snow, Sand & Mud.mp3", 
+                "language": "Hindi"
+            }
+        ], 
+        "feature": "creta_json_folder/creta_json/CONVENIENCE1/Traction Control - Snow.png", 
+        "order": 11
+    }, 
+   
+    {
+      
+        "feature_image_file": "creta_json_folder/creta_json/convenience/Tyre Pressure Monitoring System (TPMS) - High.jpg", 
+        "feature": "creta_json_folder/creta_json/CONVENIENCE1/Tyre Pressure Monitoring System (TPMS) - High.png", 
+        "order": 12
+    }
+    
+   
+   
+   
+],
+"interior": [
+    {
+        
+        "feature_image_file": "creta_json_folder/creta_json/interior/D-Cut Steering.jpg", 
+        "feature": "creta_json_folder/creta_json/INTERIOR1/D-Cut Steering.png", 
+        "order": 1
+    }, 
+    {
+      
+        "feature_image_file": "creta_json_folder/creta_json/interior/Grey & Black Interior Colour Scheme.jpg", 
+        "feature": "creta_json_folder/creta_json/INTERIOR1/Grey & Black Interior Colour Scheme.png", 
+        "order": 2
+    }, 
+    {
+       
+        "feature_image_file": "creta_json_folder/creta_json/interior/Rear Reclining Seat.jpg", 
+        "feature": "creta_json_folder/creta_json/INTERIOR1/Rear Reclining Seat.png", 
+        "order": 3
+    }, 
+    {
+       
+        "feature_image_file": "creta_json_folder/creta_json/interior/Rear Seat Headrest Cushion.jpg", 
+        "feature": "creta_json_folder/creta_json/INTERIOR1/Rear Seat Headrest Cushion.png", 
+        "order": 4
+    }, 
+    {
+       
+        "feature_image_file": "creta_json_folder/creta_json/interior/Rear Window Sunshade.jpg", 
+        "feature": "creta_json_folder/creta_json/INTERIOR1/Rear Window Sunshade.png", 
+        "order": 5
+    }, 
+    {
+       
+        "feature_image_file": "creta_json_folder/creta_json/interior/Soothing Blue Ambient Lighting.jpg", 
+        "feature": "creta_json_folder/creta_json/INTERIOR1/Soothing Blue Ambient Lighting.png", 
+        "order": 6
+    }, 
+   
+    {
+        
+        "feature_image_file": "creta_json_folder/creta_json/interior/Sports Pedal.jpg", 
+        "feature": "creta_json_folder/creta_json/INTERIOR1/Sports Pedal.png", 
+        "order": 7
+    }
+   
+    
+  
+    
+   
+]
+
+}

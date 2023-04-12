@@ -1,0 +1,378 @@
+
+
+
+
+.close-button {
+  position:absolute;
+  color:#2d2d2d;
+  min-width:200px;
+  border-radius: 3px;
+  z-index: 10020;
+  width: 300px;
+  position: absolute;
+  opacity: 1;
+
+}
+
+.topright {
+  position: absolute;
+  right: 0;
+  bottom: 20%;
+}
+
+.wt-btn-back {
+
+  background: transparent;
+ 
+}
+
+.wt-btn-next1
+{
+  background-color: cadetblue;
+  float: left;
+}
+
+.wt-btns {
+  font-size: 11px;
+  min-width: 90px !important;
+}
+
+.wt-content {
+  padding-bottom: 0px !important;
+}
+
+#wt-btn1
+{
+  font-size: 12px;
+  background-color: rgb(124, 209, 249);
+  border: none;
+    box-shadow: none;
+    border-radius: 3px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block !important;
+    float: none;
+}
+
+
+.my3dProgress {
+  position: absolute;
+  width: 30vw;
+  background-color: #cdcdcd;
+  position: absolute;
+  bottom: 100%;
+  border-radius: 0px;
+  height: 12px;
+  left: 50%;
+  margin-left: -15vw;
+}
+
+.my3dBar {
+  width: 10%;
+  height: 12px;
+  background-color: 	#00aad2;
+  text-align: center;
+  line-height: 12px;
+  color: white;
+  border-radius: 0px;
+}
+
+.loadtext {
+  text-align: center;
+  padding-top: 1vh;
+  color : #666 !important;
+  font-size: 13px;
+}
+
+.progress-bar-page {
+  position: fixed;
+  z-index: 2;
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background-image: -webkit-linear-gradient(270deg, white, white);
+  background-image: linear-gradient(180deg, white, white);
+}
+
+.progress-bar-div {
+  position: absolute;
+  left: 0px;
+  top: 15%;
+  right: 0px;
+  bottom: 40%;
+  display: block;
+  height: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+}
+
+.progress-bar-image {
+  position: static;
+  left: 0px;
+  top: 25%;
+  right: 0px;
+  bottom: 0%;
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+}
+
+.border-line-1 {
+  height: 2px;
+  margin-right: 20px;
+  margin-left: 20px;
+  background-image: -webkit-linear-gradient(270deg, #603535, #603535);
+  background-image: linear-gradient(180deg, #603535, #603535);
+}
+
+.image-4 {
+  display: none;
+}
+
+
+
+
+
+.div-block-12 {
+  width: 100%;
+  height: 100%;
+  background-position: 50% 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.carousel-indicators li {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+    .progress-bar-image {
+      position: static;
+      left: 0px;
+      top: 35%;
+      right: 0px;
+      bottom: 35%;
+      display: block;
+      width: 100%;
+      height: 100%;
+      margin-right: auto;
+      margin-left: auto;
+      -webkit-transform: translate(0px, 0px);
+      -ms-transform: translate(0px, 0px);
+      transform: translate(0px, 0px);
+    }
+    
+   
+    
+   
+  
+    
+    .div-block-12 {
+      width: 100%;
+      height: 100%;
+      background-position: 50% 100%;
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
+  
+    .heading.progress-bar-text {
+      position: static;
+      margin-bottom: 0px;
+      margin-top: 80px;
+      clear: none;
+      color: #db7137;
+    }
+  
+  
+    
+   
+    
+    .heading {
+      margin: 8px 14px auto;
+      font-family: 'Great Vibes', cursive;
+      color: #83431f;
+      font-size: 30px;
+      font-weight: 300;
+      text-align: center;
+    }
+    
+    .heading.cookiheading {
+      margin-top: 0px;
+      padding-top: 0px;
+      color: #e5d6c5;
+    }
+  
+    
+   
+    
+  
+   
+    
+    @media (max-width: 767px) {
+      .windows-main-style.buttons {
+        padding-left: 0px;
+      }
+      .windows-main-style.buttons.settings-button {
+        padding-left: 0px;
+      }
+      .windows-main-style.buttons.buttons-vert {
+        margin-top: 10px;
+      }
+      .windows-main-style.left-top-buttons {
+        padding-left: 0px;
+      }
+      .windows-main-style.left-top-buttons.settings-button {
+        padding-left: 0px;
+      }
+      .windows-main-style.left-top-buttons.buttons-vert {
+        margin-top: 10px;
+      }
+      .item-buttons {
+        right: 0px;
+        bottom: 0px;
+        width: 80px;
+        height: 270px;
+      }
+    }
+    
+    @media (max-width: 479px) {
+      .heading {
+        font-size: 20px;
+      }
+      .heading.progress-bar-text {
+        margin-top: 5px;
+      }
+      .text-block {
+        font-size: 16px;
+      }
+      .windows-main-style {
+        margin-right: 0px;
+      }
+      .windows-main-style.buttons.settings-button {
+        padding-left: 0px;
+      }
+      .windows-main-style.info-window {
+        display: block;
+        width: 80%;
+        height: 300px;
+        margin-right: 20px;
+      }
+      .windows-main-style.left-top-buttons.settings-button {
+        padding-left: 0px;
+      }
+      .windows-main-style.coocking-info-tab {
+        display: none;
+        width: 260px;
+        height: 200px;
+      }
+      .progress-bar-div {
+        top: 43%;
+        bottom: 43%;
+        height: 14%;
+      }
+      .progress-bar-image {
+        width: 140px;
+        height: auto;
+      }
+    }
+  
+  
+    
+    @media (max-width: 991px) {
+      .nav-menu {
+        position: static;
+        display: block;
+        overflow: visible;
+        width: 50px;
+        margin-top: 0px;
+      }
+    }
+    
+    @media (max-width: 767px) {
+      .windows-main-style.buttons {
+        padding-left: 0px;
+      }
+      .windows-main-style.buttons.settings-button {
+        padding-left: 0px;
+      }
+      .windows-main-style.buttons.buttons-vert {
+        margin-top: 10px;
+      }
+      .windows-main-style.left-top-buttons {
+        padding-left: 0px;
+      }
+      .windows-main-style.left-top-buttons.settings-button {
+        padding-left: 0px;
+      }
+      .windows-main-style.left-top-buttons.buttons-vert {
+        margin-top: 10px;
+      }
+      .item-buttons {
+        right: 0px;
+        bottom: 0px;
+        width: 80px;
+        height: 270px;
+      }
+    }
+    
+    @media (max-width: 479px) {
+      .heading {
+        font-size: 20px;
+      }
+      .heading.progress-bar-text {
+        margin-top: 5px;
+      }
+      .text-block {
+        font-size: 16px;
+      }
+      .windows-main-style {
+        margin-right: 0px;
+      }
+      .windows-main-style.buttons.settings-button {
+        padding-left: 0px;
+      }
+      .windows-main-style.info-window {
+        display: block;
+        width: 80%;
+        height: 300px;
+        margin-right: 20px;
+      }
+      .windows-main-style.left-top-buttons.settings-button {
+        padding-left: 0px;
+      }
+      .windows-main-style.coocking-info-tab {
+        display: none;
+        width: 260px;
+        height: 200px;
+      }
+      .progress-bar-div {
+        top: 43%;
+        bottom: 43%;
+        height: 14%;
+      }
+      .progress-bar-image {
+        width: 140px;
+        height: auto;
+      }
+    }

@@ -1,0 +1,619 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="true" scrollx="1130" scrolly="587.5000000000001" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="initSettings" id=".gIu4NM:@ys~9B*R28Xo" x="-630" y="-390">
+      <field name="LOAD_COMP_ASSETS">TRUE</field>
+      <field name="FULLSCREEN">TRUE</field>
+      <field name="BKG_TRANSPARENCY">FALSE</field>
+      <field name="PRESERVE_DRAW_BUF">FALSE</field>
+      <field name="FADE_ANNOTATIONS">TRUE</field>
+    </block>
+  </tab>
+  <tab name="main" type="MainTab" active="false" scrollx="1119.9999999999998" scrolly="368.9" scale="0.9">
+    <variables xmlns="https://developers.google.com/blockly/xml">
+      <variable id="0GLsq]K.,-}~:r7qEktB" type="">Carpaint_Mat</variable>
+    </variables>
+    <block xmlns="https://developers.google.com/blockly/xml" type="variables_set" id=";[_m9E^ROu]7RHnOr;8Y" collapsed="true" x="-910" y="-30">
+      <field name="VAR" id="0GLsq]K.,-}~:r7qEktB">Carpaint_Mat</field>
+      <value name="VALUE">
+        <block type="text" id="A|,w`rK33$0DVZdr0GPw">
+          <field name="TEXT">BaseColour</field>
+        </block>
+      </value>
+      <next>
+        <block type="controls_if" id=":@nhEXrQM|3a1Ey;#nT?" collapsed="true">
+          <value name="IF0">
+            <block type="logic_compare" id="=C{*/)A`OZ{oVVVl2|%/">
+              <field name="OP">EQ</field>
+              <value name="A">
+                <block type="variables_get" id="P:%.Hu`_(D211aZB/P5Q">
+                  <field name="VAR" id="0GLsq]K.,-}~:r7qEktB">Carpaint_Mat</field>
+                </block>
+              </value>
+              <value name="B">
+                <block type="text" id="Y0C)8y@}k*hp|a(G;wFZ">
+                  <field name="TEXT">BaseColour</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO0">
+            <block type="setMaterialColor" id="?*#^Bts5?t9K$/l]nVF$">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" flexcolinput="false" usecsscolor="false"></mutation>
+              <field name="MAT_COL_NAME">CarPaint_MainBody_Base_Color</field>
+              <value name="MATERIAL">
+                <block type="materialList" id="n$ThQsJN[:BO{i(R1n/G">
+                  <field name="FIELDNAME">CarPaint_MainBody_Mix</field>
+                </block>
+              </value>
+              <value name="R">
+                <shadow type="math_number" id="k=$-((:%E{uzPCL.+e7r">
+                  <field name="NUM">0</field>
+                </shadow>
+              </value>
+              <value name="G">
+                <shadow type="math_number" id="v$@LA+#[Y^pACY[Ka]dW">
+                  <field name="NUM">0.003</field>
+                </shadow>
+              </value>
+              <value name="B">
+                <shadow type="math_number" id="Aw!rc2/@uljI^ZUXA#{T">
+                  <field name="NUM">0.016</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="setMaterialColor" id="?BkVU^(@K|6]U9c+a,,5">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" flexcolinput="false" usecsscolor="false"></mutation>
+                  <field name="MAT_COL_NAME">CarPaint_MainBody_Reflection_Color</field>
+                  <value name="MATERIAL">
+                    <block type="materialList" id="cwQ-vCUDONyqcC%RIrfa">
+                      <field name="FIELDNAME">CarPaint_MainBody_Mix</field>
+                    </block>
+                  </value>
+                  <value name="R">
+                    <shadow type="math_number" id="faPn(jnsV$Vet;|M)W[$">
+                      <field name="NUM">0.384</field>
+                    </shadow>
+                  </value>
+                  <value name="G">
+                    <shadow type="math_number" id="^D+FP5mlUvRsp1eT$z_H">
+                      <field name="NUM">0.435</field>
+                    </shadow>
+                  </value>
+                  <value name="B">
+                    <shadow type="math_number" id="*2F;O@{RroOUXI6sml/|">
+                      <field name="NUM">0.494</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="setMaterialValue" id="nNAhK(k^1xa7oYDW)y1!">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml" flexvalinput="false"></mutation>
+                      <field name="MAT_VAL_NAME">CarPaint_MainBody_Roughness</field>
+                      <value name="MATERIAL">
+                        <shadow type="materialList">
+                          <field name="FIELDNAME">&lt;none&gt;</field>
+                        </shadow>
+                        <block type="materialList" id="uBrA6DL[fecK0]7IIQHl">
+                          <field name="FIELDNAME">CarPaint_MainBody_Mix</field>
+                        </block>
+                      </value>
+                      <value name="VALUE">
+                        <shadow type="math_number" id="}D+o$;*)fsJ;dT@T%KY(">
+                          <field name="NUM">0.36</field>
+                        </shadow>
+                      </value>
+                      <next>
+                        <block type="setMaterialValue" id=")dTLD;J/dD+$m;[.re]%">
+                          <mutation xmlns="http://www.w3.org/1999/xhtml" flexvalinput="false"></mutation>
+                          <field name="MAT_VAL_NAME">CarPaint_MainBody_Metalness</field>
+                          <value name="MATERIAL">
+                            <shadow type="materialList">
+                              <field name="FIELDNAME">&lt;none&gt;</field>
+                            </shadow>
+                            <block type="materialList" id="4yy45vbW3Iu8-Vt-5NjX">
+                              <field name="FIELDNAME">CarPaint_MainBody_Mix</field>
+                            </block>
+                          </value>
+                          <value name="VALUE">
+                            <shadow type="math_number" id="p9P2(j)T{N,t0FcP8eS~">
+                              <field name="NUM">0.6</field>
+                            </shadow>
+                          </value>
+                          <next>
+                            <block type="setMaterialValue" id="v]bzhw5.PaT^xy3r42,v">
+                              <mutation xmlns="http://www.w3.org/1999/xhtml" flexvalinput="false"></mutation>
+                              <field name="MAT_VAL_NAME">CarPaint_MainBody_Coating_Roughness</field>
+                              <value name="MATERIAL">
+                                <shadow type="materialList">
+                                  <field name="FIELDNAME">&lt;none&gt;</field>
+                                </shadow>
+                                <block type="materialList" id="WHn#$/oV{0H7@kvp|07q">
+                                  <field name="FIELDNAME">CarPaint_MainBody_Mix</field>
+                                </block>
+                              </value>
+                              <value name="VALUE">
+                                <shadow type="math_number" id="F$;[$tJb%XY|Q,^EtjTr">
+                                  <field name="NUM">0.26</field>
+                                </shadow>
+                              </value>
+                              <next>
+                                <block type="variables_set" id="m(]:6$3J^u@bmH2w)sTO">
+                                  <field name="VAR" id="0GLsq]K.,-}~:r7qEktB">Carpaint_Mat</field>
+                                  <value name="VALUE">
+                                    <block type="text" id="ssMSDW7-;}V+M:@3^LJ!">
+                                      <field name="TEXT">Starry Night</field>
+                                    </block>
+                                  </value>
+                                </block>
+                              </next>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </statement>
+          <next>
+            <block type="variables_set" id="-HeCP7HT`pSk{1}bz.3w" collapsed="true">
+              <field name="VAR" id="0GLsq]K.,-}~:r7qEktB">Carpaint_Mat</field>
+              <value name="VALUE">
+                <block type="text" id="5qKlvE}={nCr7_NSQ#]J">
+                  <field name="TEXT">InnerColour</field>
+                </block>
+              </value>
+              <next>
+                <block type="controls_if" id="S8!)5pH,Xa1pn`jInQMP" collapsed="true">
+                  <value name="IF0">
+                    <block type="logic_compare" id="4XY#P}Gb5_IVbFw=Ln_?">
+                      <field name="OP">EQ</field>
+                      <value name="A">
+                        <block type="variables_get" id="|+62K$gI%HELiKqroYC*">
+                          <field name="VAR" id="0GLsq]K.,-}~:r7qEktB">Carpaint_Mat</field>
+                        </block>
+                      </value>
+                      <value name="B">
+                        <block type="text" id="g66GQtx4eZ$4RV{*$}.G">
+                          <field name="TEXT">InnerColour</field>
+                        </block>
+                      </value>
+                    </block>
+                  </value>
+                  <statement name="DO0">
+                    <block type="setMaterialColor" id="*X?x,*w*DcVD$}!3VB1$">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml" flexcolinput="false" usecsscolor="false"></mutation>
+                      <field name="MAT_COL_NAME">CarPaint_MainBody_Base_Color</field>
+                      <value name="MATERIAL">
+                        <block type="materialList" id="crI/gkUw0xLwNTTvo8kp">
+                          <field name="FIELDNAME">CarPaint_InnerBody_Mix</field>
+                        </block>
+                      </value>
+                      <value name="R">
+                        <shadow type="math_number" id="g?Bfo+Apr8SY@Y0O18Ds">
+                          <field name="NUM">0</field>
+                        </shadow>
+                      </value>
+                      <value name="G">
+                        <shadow type="math_number" id="qfn:*T-+er}4)Wf1MS~A">
+                          <field name="NUM">0.003</field>
+                        </shadow>
+                      </value>
+                      <value name="B">
+                        <shadow type="math_number" id="q=sJM5;cTW?BB(8KeypE">
+                          <field name="NUM">0.016</field>
+                        </shadow>
+                      </value>
+                      <next>
+                        <block type="setMaterialColor" id="U?JttpYBVNv^2c2k~(z7">
+                          <mutation xmlns="http://www.w3.org/1999/xhtml" flexcolinput="false" usecsscolor="false"></mutation>
+                          <field name="MAT_COL_NAME">CarPaint_MainBody_Reflection_Color</field>
+                          <value name="MATERIAL">
+                            <block type="materialList" id="9%O?KiDv7sC1HNtC-RJN">
+                              <field name="FIELDNAME">CarPaint_InnerBody_Mix</field>
+                            </block>
+                          </value>
+                          <value name="R">
+                            <shadow type="math_number" id="{1^-gijJ@K~.mx]CO`p@">
+                              <field name="NUM">0.384</field>
+                            </shadow>
+                          </value>
+                          <value name="G">
+                            <shadow type="math_number" id="tY5Im@2ZY^[vZQs,sOPy">
+                              <field name="NUM">0.435</field>
+                            </shadow>
+                          </value>
+                          <value name="B">
+                            <shadow type="math_number" id="LG:Zy4vW-nAxzUC{an64">
+                              <field name="NUM">0.494</field>
+                            </shadow>
+                          </value>
+                          <next>
+                            <block type="setMaterialValue" id="/X}%`8AqRDHpr7AKbcXC">
+                              <mutation xmlns="http://www.w3.org/1999/xhtml" flexvalinput="false"></mutation>
+                              <field name="MAT_VAL_NAME">CarPaint_MainBody_Roughness</field>
+                              <value name="MATERIAL">
+                                <shadow type="materialList">
+                                  <field name="FIELDNAME">&lt;none&gt;</field>
+                                </shadow>
+                                <block type="materialList" id="+9JuCc*G*JBXFL]AC[ls">
+                                  <field name="FIELDNAME">CarPaint_InnerBody_Mix</field>
+                                </block>
+                              </value>
+                              <value name="VALUE">
+                                <shadow type="math_number" id="|,L7ZD8m{~xAlt2bE1)i">
+                                  <field name="NUM">0.36</field>
+                                </shadow>
+                              </value>
+                              <next>
+                                <block type="setMaterialValue" id="u}!:M(BR#iqQy`V[Q]Bq">
+                                  <mutation xmlns="http://www.w3.org/1999/xhtml" flexvalinput="false"></mutation>
+                                  <field name="MAT_VAL_NAME">CarPaint_MainBody_Metalness</field>
+                                  <value name="MATERIAL">
+                                    <shadow type="materialList">
+                                      <field name="FIELDNAME">&lt;none&gt;</field>
+                                    </shadow>
+                                    <block type="materialList" id="8KT00,+Rv-%Xb:M3/$$`">
+                                      <field name="FIELDNAME">CarPaint_InnerBody_Mix</field>
+                                    </block>
+                                  </value>
+                                  <value name="VALUE">
+                                    <shadow type="math_number" id="%P3pAT]2$Z/Lnax|L}FG">
+                                      <field name="NUM">0.6</field>
+                                    </shadow>
+                                  </value>
+                                  <next>
+                                    <block type="setMaterialValue" id="z%O3=Umzw_~k/Vc([ts2">
+                                      <mutation xmlns="http://www.w3.org/1999/xhtml" flexvalinput="false"></mutation>
+                                      <field name="MAT_VAL_NAME">CarPaint_MainBody_Coating_Roughness</field>
+                                      <value name="MATERIAL">
+                                        <shadow type="materialList">
+                                          <field name="FIELDNAME">&lt;none&gt;</field>
+                                        </shadow>
+                                        <block type="materialList" id="0I9k[3bNyNx?4P{f`gqw">
+                                          <field name="FIELDNAME">CarPaint_InnerBody_Mix</field>
+                                        </block>
+                                      </value>
+                                      <value name="VALUE">
+                                        <shadow type="math_number" id="oyj!5O:]X-D,Qi#GoCZ6">
+                                          <field name="NUM">0.26</field>
+                                        </shadow>
+                                      </value>
+                                      <next>
+                                        <block type="variables_set" id="XyPiXv/+!;_57OAp^Nas">
+                                          <field name="VAR" id="0GLsq]K.,-}~:r7qEktB">Carpaint_Mat</field>
+                                          <value name="VALUE">
+                                            <block type="text" id="PrZbz;TeBzWKpW_6Vu(3">
+                                              <field name="TEXT">Inner Starry Night</field>
+                                            </block>
+                                          </value>
+                                        </block>
+                                      </next>
+                                    </block>
+                                  </next>
+                                </block>
+                              </next>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </statement>
+                  <next>
+                    <block type="setTimer" id="N)4!GP8N3fQq=Hw$_d6y">
+                      <value name="ID">
+                        <shadow type="text" id="J2m9dy=l=A1B@cGQOPDQ">
+                          <field name="TEXT">autorotate</field>
+                        </shadow>
+                      </value>
+                      <value name="VALUE">
+                        <shadow type="math_number" id="UW,vvE;`@|!h?qYA)W6J">
+                          <field name="NUM">3</field>
+                        </shadow>
+                      </value>
+                      <value name="REPEAT">
+                        <shadow type="math_number" id="W6H0i?)WP?/|#S6Y5K/*">
+                          <field name="NUM">Infinity</field>
+                        </shadow>
+                      </value>
+                      <statement name="DO">
+                        <block type="autoRotateCamera" id="*D9h`UFvRGliRH98dNcD">
+                          <field name="ON_OFF">ON</field>
+                          <value name="SPEED">
+                            <shadow type="math_number" id="VdR33Kq(eU2+f8IOjB9z">
+                              <field name="NUM">1</field>
+                            </shadow>
+                          </value>
+                        </block>
+                      </statement>
+                      <next>
+                        <block type="whenClicked" id=":bE|ntRxKa`gQIc!)^sW">
+                          <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+                          <field name="X_RAY">FALSE</field>
+                          <field name="DOUBLE_CLICK">FALSE</field>
+                          <field name="LEFT_BUTTON">TRUE</field>
+                          <field name="MIDDLE_BUTTON">TRUE</field>
+                          <field name="RIGHT_BUTTON">TRUE</field>
+                          <value name="VALUE">
+                            <block type="allObjectList" id="5D1Hln8;wOe8}?`tgiqv"/>
+                          </value>
+                          <statement name="DO">
+                            <block type="autoRotateCamera" id=":A^+os4lmb}`o*)%E4MC">
+                              <field name="ON_OFF">OFF</field>
+                              <value name="SPEED">
+                                <shadow type="math_number" id="Ab:%8=TtF#NhIN.`SeRF">
+                                  <field name="NUM">0.5</field>
+                                </shadow>
+                              </value>
+                              <next>
+                                <block type="setTimer" id="!Bk2Y+w[[)%T8?PCy=h7">
+                                  <value name="ID">
+                                    <shadow type="text" id="z.8Hwh:42?@+UI[Hzau|">
+                                      <field name="TEXT">autorotate</field>
+                                    </shadow>
+                                  </value>
+                                  <value name="VALUE">
+                                    <shadow type="math_number" id="~_-HtF#YYp-I.mVyY/#d">
+                                      <field name="NUM">5</field>
+                                    </shadow>
+                                  </value>
+                                  <value name="REPEAT">
+                                    <shadow type="math_number" id="TJbbTafG$*_jW:6Bh9qv">
+                                      <field name="NUM">Infinity</field>
+                                    </shadow>
+                                  </value>
+                                  <statement name="DO">
+                                    <block type="autoRotateCamera" id="h5#^hz-Dvw_tmjbVo8`@">
+                                      <field name="ON_OFF">ON</field>
+                                      <value name="SPEED">
+                                        <shadow type="math_number" id="uSl~Bhc.2AZ1-{lcjb7$">
+                                          <field name="NUM">1</field>
+                                        </shadow>
+                                      </value>
+                                    </block>
+                                  </statement>
+                                </block>
+                              </next>
+                            </block>
+                          </statement>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+  </tab>
+  <tab name="Annotations" type="SecondaryTab" active="false" scrollx="68" scrolly="-59.00000000000006" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="setCSSRuleStyle" id="6.rNS/0D*bz0_j#9%BcM" x="270" y="310">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
+      <field name="PROPERTY">width</field>
+      <field name="PARENT">TRUE</field>
+      <value name="VALUE">
+        <block type="text" id=",Kq0cZ-87`9[n35N7jWL">
+          <field name="TEXT">10px</field>
+        </block>
+      </value>
+      <value name="ID">
+        <block type="text" id="W!YxUSTmFj`FSAnEnQK(">
+          <field name="TEXT">.v3d-annotation</field>
+        </block>
+      </value>
+      <next>
+        <block type="setCSSRuleStyle" id="GH^^JyDP;:Ft7Sf?.WYB">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
+          <field name="PROPERTY">height</field>
+          <field name="PARENT">TRUE</field>
+          <value name="VALUE">
+            <block type="text" id="e6(eQYsBA.@sR|i-W7/T">
+              <field name="TEXT">10px</field>
+            </block>
+          </value>
+          <value name="ID">
+            <block type="text" id="/r#WHWNow,,Y61X5.iHH">
+              <field name="TEXT">.v3d-annotation</field>
+            </block>
+          </value>
+          <next>
+            <block type="setCSSRuleStyle" id="ov6j#bRago!Yt)T!@[}|">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
+              <field name="PROPERTY">height</field>
+              <field name="PARENT">TRUE</field>
+              <value name="VALUE">
+                <block type="text" id="vb73JAelCtc.cd4?oSF!">
+                  <field name="TEXT">10px</field>
+                </block>
+              </value>
+              <value name="ID">
+                <block type="text" id="wV:P626gj,6:d`!sBU97">
+                  <field name="TEXT">.v3d-annotation</field>
+                </block>
+              </value>
+              <next>
+                <block type="setCSSRuleStyle" id="mI]pdux:kl62!*^rKr,e">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
+                  <field name="PROPERTY">backgroundColor</field>
+                  <field name="PARENT">TRUE</field>
+                  <value name="VALUE">
+                    <block type="text" id="hI[nGyh},bCeTCdyu+jX">
+                      <field name="TEXT">orange</field>
+                    </block>
+                  </value>
+                  <value name="ID">
+                    <block type="text" id="COGxA74Nd;y`zI9W3)Bg">
+                      <field name="TEXT">.v3d-annotation</field>
+                    </block>
+                  </value>
+                  <next>
+                    <block type="setCSSRuleStyle" id="t./=$CIOsHEl8u~}hjOx">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
+                      <field name="PROPERTY">minWidth</field>
+                      <field name="PARENT">TRUE</field>
+                      <value name="VALUE">
+                        <block type="text" id="+%%YWD%2d1%wd]Bw3c2O">
+                          <field name="TEXT">0px</field>
+                        </block>
+                      </value>
+                      <value name="ID">
+                        <block type="text" id="6|v}bX_%JtI}.lx$sQ@}">
+                          <field name="TEXT">.v3d-annotation</field>
+                        </block>
+                      </value>
+                      <next>
+                        <block type="setCSSRuleStyle" id=",KL8`X-sFbQol8xyShIR">
+                          <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
+                          <field name="PROPERTY">padding</field>
+                          <field name="PARENT">TRUE</field>
+                          <value name="VALUE">
+                            <block type="text" id="kt:n!o$;vJfN%/Pu7iU^">
+                              <field name="TEXT">0px</field>
+                            </block>
+                          </value>
+                          <value name="ID">
+                            <block type="text" id="/4i/d7i;7V|G-5I{NKu3">
+                              <field name="TEXT">.v3d-annotation</field>
+                            </block>
+                          </value>
+                          <next>
+                            <block type="setCSSRuleStyle" id="m~rch(_458m22cW.LOK7">
+                              <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
+                              <field name="PROPERTY">fontSize</field>
+                              <field name="PARENT">TRUE</field>
+                              <value name="VALUE">
+                                <block type="text" id="x7K:%uSg!5[R0n;OX+tl">
+                                  <field name="TEXT">0px</field>
+                                </block>
+                              </value>
+                              <value name="ID">
+                                <block type="text" id="$0H{WyH;0R}80t`cf]R7">
+                                  <field name="TEXT">.v3d-annotation</field>
+                                </block>
+                              </value>
+                              <next>
+                                <block type="setCSSRuleStyle" id="i}I]1jbv%#sR;|fu.XDy">
+                                  <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
+                                  <field name="PROPERTY">minWidth</field>
+                                  <field name="PARENT">TRUE</field>
+                                  <value name="VALUE">
+                                    <block type="text" id="V2+@!W~Ut0}*RL*mmQrJ">
+                                      <field name="TEXT">0px</field>
+                                    </block>
+                                  </value>
+                                  <value name="ID">
+                                    <block type="text" id="p[y,~cQcK*lXfhVQY:%-">
+                                      <field name="TEXT">.v3d-annotation-dialog</field>
+                                    </block>
+                                  </value>
+                                  <next>
+                                    <block type="setCSSRuleStyle" id="oqs5kK~LSz{pG#{S+x-7">
+                                      <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
+                                      <field name="PROPERTY">padding</field>
+                                      <field name="PARENT">TRUE</field>
+                                      <value name="VALUE">
+                                        <block type="text" id="XW=5=I#3F2t-[5{|xkvo">
+                                          <field name="TEXT">6px</field>
+                                        </block>
+                                      </value>
+                                      <value name="ID">
+                                        <block type="text" id="MWxVF:~UZ!5vnXfTLv:$">
+                                          <field name="TEXT">.v3d-annotation-dialog</field>
+                                        </block>
+                                      </value>
+                                      <next>
+                                        <block type="setCSSRuleStyle" id="Nvj0MMy.S%D,G]42?0Ek">
+                                          <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
+                                          <field name="PROPERTY">margin</field>
+                                          <field name="PARENT">TRUE</field>
+                                          <value name="VALUE">
+                                            <block type="text" id="Zm~#;J5!.$aD2`,T4%kV">
+                                              <field name="TEXT">18px</field>
+                                            </block>
+                                          </value>
+                                          <value name="ID">
+                                            <block type="text" id="98]-{OL${x)*4kkB`.aO">
+                                              <field name="TEXT">.v3d-annotation-dialog</field>
+                                            </block>
+                                          </value>
+                                          <next>
+                                            <block type="setCSSRuleStyle" id="}(Vi+4BvIHk0syksJq7{">
+                                              <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
+                                              <field name="PROPERTY">opacity</field>
+                                              <field name="PARENT">TRUE</field>
+                                              <value name="VALUE">
+                                                <block type="text" id=";_SY9lz+!FrW(]1_8(YY">
+                                                  <field name="TEXT">0</field>
+                                                </block>
+                                              </value>
+                                              <value name="ID">
+                                                <block type="text" id="j(S}*F4J-3b[7I}v=|LR">
+                                                  <field name="TEXT">.v3d-annotation-transparent</field>
+                                                </block>
+                                              </value>
+                                              <next>
+                                                <block type="setCSSRuleStyle" id="ViMnY!/e`yMnPGMy.kbj">
+                                                  <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
+                                                  <field name="PROPERTY">backgroundColor</field>
+                                                  <field name="PARENT">TRUE</field>
+                                                  <value name="VALUE">
+                                                    <block type="text" id="o$yMQzj:5Luf1Sw1,bnf">
+                                                      <field name="TEXT">gray</field>
+                                                    </block>
+                                                  </value>
+                                                  <value name="ID">
+                                                    <block type="text" id="z9gTjgXhSB4BGe3-Xx(S">
+                                                      <field name="TEXT">.v3d-annotation-transparent</field>
+                                                    </block>
+                                                  </value>
+                                                </block>
+                                              </next>
+                                            </block>
+                                          </next>
+                                        </block>
+                                      </next>
+                                    </block>
+                                  </next>
+                                </block>
+                              </next>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="addAnnotation" id="U_1v!=9lE3P_[]gShM!I" x="130" y="870">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+      <value name="ANNOTATION">
+        <shadow type="text" id="](Fdq`p=K_qFN*xciB3b">
+          <field name="TEXT">1</field>
+        </shadow>
+      </value>
+      <value name="TARGET">
+        <shadow type="objectList" id="Uzo}y]zavySmy9F0`77z">
+          <field name="FIELDNAME">HS_5_Perf_01,02,03_Petrol/Diesel Engine/GDi Petrol</field>
+        </shadow>
+      </value>
+      <value name="CONTENTS">
+        <shadow type="text" id="gK!4v7wnYg|qhG/R!QM-">
+          <field name="TEXT">Engine</field>
+        </shadow>
+      </value>
+      <value name="ID">
+        <shadow type="text" id="*h1Y`qEreA8v?)Uh/p0+">
+          <field name="TEXT">poi01</field>
+        </shadow>
+      </value>
+    </block>
+  </tab>
+  <editorsettings viewport-x="892" viewport-y="47" viewport-w="1024" viewport-h="664.5" viewport-hidden="true" toolbox-library-mode="true" toolbox-minimized-mode="false"></editorsettings>
+</xml>
